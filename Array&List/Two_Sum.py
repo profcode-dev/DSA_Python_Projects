@@ -25,20 +25,7 @@ def twoSum(nums, target):
             else: 
                 break
         
-        
-        
-        
-        # for i,nums[0] in enumerate(nums): # i = -3
-        #     if nums[i+1] < len(nums):
-        #      for j,nums[i+1] in enumerate(nums):  # j = 4
-        #          if(nums[i] + nums[i+1] == target):
-        #              break
-        # for i in range(nums[0],len(nums)):
-        #     for j in range(nums[i+1], len(nums)-1):
-        #         if (nums[i] + nums[j] == target):
-        #             break
-                
-                
+
                      
     # """
     #     فكرة الحل هنا يصديقى عشان لما ترجعلها تانى 
@@ -59,21 +46,3 @@ target = 10
 # if valid I got it , stop the program 
 twoSum(nums,target)
        
-         # for indx,numbs in enumerate(nums): # first loop , indx = 0 
-        #     if indx != (len(nums) - 1):
-        #         if (nums[indx] + nums[indx+1] == target):
-        #             return print(list([indx,indx+1]))
-        #             break
-        #         elif (nums[indx] + nums[-1] == target):
-        #             return print(list([indx, len(nums)-1]))
-        #             break
-        #         else:
-        #             continue
-        #         break
-        # for i in range(0,len(nums),2): 
-        #     if i != (len(nums) -1 ):
-        #         if (nums[i] + nums[i+2] == target):
-        #             return print(list([i,i+2]))
-        #             break 
-        #         break
-                
